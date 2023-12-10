@@ -1,0 +1,30 @@
+{
+  "CA_STATUS": [
+    {
+      "status": "CA STATUS 1"
+    },
+    {
+      "status": "CA STATUS 2"
+    },
+    {
+      "status": "CA STATUS 3"
+    }
+  ],
+  "CA_TASK": [
+    {
+      "Task": "CA Task1",
+      "Description": "CA Task1 Description",
+      "Priority": 2
+    },
+    {
+      "Task": "CA Task2",
+      "Description": "CA Task2 Description",
+      "Priority": 4
+    },
+    {
+      "Task": "CA Task3",
+      "Description": "CA Task3 Description",
+      "Priority": 2
+    }
+  ]
+}
