@@ -1,0 +1,92 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0rem 0rem 2rem 0.2rem rgb(207, 207, 207);
+    border: 1px solid rgb(207, 207, 207);
+    position: relative;
+    width: 100%;
+    z-index: 10;
+  }
+  .mainNav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    font-weight: 200 !important;
+    color: rgb(139, 139, 139);
+  }
+  
+  .mainNav ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  .mainNav ul a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .mainNav ul li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    position: relative;
+    padding: 0.5rem 0.5rem;
+    /* border-radius: 0.5rem; */
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .mainNav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+   }
+  
+  .mainNav ul li:hover {
+    background-color: rgba(25, 99, 209, 0.571);
+    border-radius: 0.5rem;
+    border-bottom: 1px solid rgba(25, 99, 209, 0.571);
+  }
+  
+  .mainNav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0rem 0;
+    padding-top: 1rem;
+    width: 10rem;
+  }
+  
+  .mainNav ul li:hover > ul {
+    display: block;
+  }
+  
+  .mainNav ul li:hover > a {
+    background-color: rgba(25, 99, 209, 0.2);
+  }
+  
+  .mainNav ul li ul li {
+    padding: 0.5rem 1rem;
+  }
+  
+  .mainNav ul li ul li a:hover {
+    background-color: rgba(25, 99, 209, 0.4);
+  }
+  
+
+  .fixedHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; 
+   
+  }

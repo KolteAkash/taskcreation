@@ -1,0 +1,15 @@
+button{
+    height: 2.4rem;
+    /* width: 10rem; */
+    border: none;
+    background-color: rgba(6,90,215,1);
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.MainButton{
+    display: flex;
+    justify-content: center;
+}

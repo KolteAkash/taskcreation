@@ -1,0 +1,47 @@
+
+.user-view-container {
+  margin: 150px;
+}
+h2 {
+  color: #333;
+  margin-left: 500px;
+  margin-bottom: 40px;
+}
+.Paper-root {
+  width: 90%;
+  overflow-x: auto;
+}
+
+.MuiTable-root {
+  min-width: 500px; 
+}
+
+.MuiTableHead-root {
+  background-color: rgba(6, 90, 215, 1);
+}
+
+.MuiTableCell-head {
+  color: #fff;
+}
+
+.MuiFormControl-root.Mui-focused {
+  border: 2px solid #06d;
+}
+
+.MuiSelect-root {
+  padding: 10px;
+}
+.MuiIconButton-root {
+  padding: 6px;
+}
+.autocomplete-inputuser {
+  width: 300px; 
+  padding: 8px;
+  border-radius: 4px;
+  border-color: aliceblue;
+}
+.user-view-container {
+  max-height: 500vh; 
+  overflow: hidden; 
+
+}

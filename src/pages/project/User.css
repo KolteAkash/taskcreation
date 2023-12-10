@@ -1,0 +1,51 @@
+.user-add-container {
+    max-width: 500px;
+    height: 490px;
+    margin-top: 100px;
+    margin-left: 540px;
+    padding: 20px;
+    border: 1px solid #e8e2e2;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 2rem 2rem rgb(239, 239, 239); 
+  }
+  
+  .user-add-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color: #007bff;
+  }
+  
+  .user-add-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-add-container input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%; 
+    margin-left: 40px; 
+  }
+  
+  .user-add-container Button {
+    padding: 10px 20px;
+    background-color:white;
+    color:#007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 40px;
+  }
+  
+  .adduser{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 29px;
+    color: #007bff;
+  }
